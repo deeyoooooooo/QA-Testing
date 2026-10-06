@@ -1,0 +1,588 @@
+{
+	"id": "84989a99-0e80-4277-8446-6fb0e186f8da",
+	"name": "API_AutomationExercise",
+	"timestamp": "2025-07-01T07:03:19.349Z",
+	"collection_id": "42517049-f84ff0d9-c7d2-40d8-8102-f6de204b0fd5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 40,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-01T07:02:52.045Z",
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "ba353733-7a2e-4d85-b250-a785067388a5",
+			"name": "API 1: Get All Products List",
+			"url": "https://automationexercise.com/api/productsList",
+			"time": 362,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				1156,
+				625,
+				391,
+				364,
+				362
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bc21ffc9-1dce-4446-b8c9-8f2f28de5e51",
+			"name": "API 2: POST To All Products List",
+			"url": "https://automationexercise.com/api/productsList",
+			"time": 281,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				295,
+				285,
+				303,
+				285,
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "69298ba3-a776-4db5-94c1-013b12b27175",
+			"name": "API 3: Get All Brands List",
+			"url": "https://automationexercise.com/api/brandsList",
+			"time": 302,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				315,
+				303,
+				302,
+				296,
+				302
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1fc601c6-da3a-4880-b773-9a1e3a3980a3",
+			"name": "API 4: PUT To All Brands List",
+			"url": "https://automationexercise.com/api/brandsList",
+			"time": 289,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				299,
+				293,
+				293,
+				293,
+				289
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "54b3627e-b9ac-4234-aaaa-5e7f753a4384",
+			"name": "API 5: POST To Search Product",
+			"url": "https://automationexercise.com/api/searchProduct",
+			"time": 309,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": false,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 5
+				},
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				295,
+				319,
+				297,
+				288,
+				309
+			],
+			"allTests": [
+				{
+					"Successful POST request": false,
+					"Status code is 200": true
+				},
+				{
+					"Successful POST request": false,
+					"Status code is 200": true
+				},
+				{
+					"Successful POST request": false,
+					"Status code is 200": true
+				},
+				{
+					"Successful POST request": false,
+					"Status code is 200": true
+				},
+				{
+					"Successful POST request": false,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a3e65adb-9a77-4a63-b98f-473e38f48357",
+			"name": "API 6: POST To Search Product without search_product parameter",
+			"url": "https://automationexercise.com/api/searchProduct",
+			"time": 290,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				291,
+				311,
+				294,
+				285,
+				290
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a91cb4b1-7e14-49e1-bb93-960d93720ccf",
+			"name": "API 7: POST To Verify Login with valid details",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				300,
+				330,
+				297,
+				293,
+				297
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c3407bed-d07c-4116-a700-b947ddae5798",
+			"name": "API 8: POST To Verify Login without email parameter",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				291,
+				290,
+				299,
+				290,
+				297
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a5f11586-4dad-4fa2-a55a-1a421b43312a",
+			"name": "API 9: DELETE To Verify Login",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 313,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				294,
+				314,
+				290,
+				311,
+				313
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "09f1bf9e-88ff-48d5-95e4-90c7bcb9fddc",
+			"name": "API 10: POST To Verify Login with invalid details",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 290,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				309,
+				326,
+				294,
+				298,
+				290
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "6d77bbde-9b44-459e-9d5e-07a1d411df40",
+			"name": "API 11: POST To Create/Register User Account",
+			"url": "https://automationexercise.com/api/createAccount",
+			"time": 289,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				305,
+				334,
+				300,
+				287,
+				289
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "a994c34a-a365-43de-88d9-a0434f819301",
+			"name": "API 12: DELETE METHOD To Delete User Account",
+			"url": "https://automationexercise.com/api/deleteAccount",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				312,
+				313,
+				321,
+				302,
+				291
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "03344095-504c-4a9e-8f51-a4fabb33c587",
+			"name": "API 13: PUT METHOD To Update User Account",
+			"url": "https://automationexercise.com/api/updateAccount",
+			"time": 331,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				290,
+				310,
+				292,
+				322,
+				331
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "26a9e0ad-85f8-4525-bde7-7906c60f115f",
+			"name": "API 14: GET user account detail by email",
+			"url": "https://automationexercise.com/api/getUserDetailByEmail?email=suj@gmail.com",
+			"time": 298,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				353,
+				321,
+				307,
+				296,
+				298
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 22508,
+	"collection": {
+		"requests": [
+			{
+				"id": "ba353733-7a2e-4d85-b250-a785067388a5",
+				"method": "GET"
+			},
+			{
+				"id": "bc21ffc9-1dce-4446-b8c9-8f2f28de5e51",
+				"method": "POST"
+			},
+			{
+				"id": "69298ba3-a776-4db5-94c1-013b12b27175",
+				"method": "GET"
+			},
+			{
+				"id": "1fc601c6-da3a-4880-b773-9a1e3a3980a3",
+				"method": "PUT"
+			},
+			{
+				"id": "54b3627e-b9ac-4234-aaaa-5e7f753a4384",
+				"method": "POST"
+			},
+			{
+				"id": "a3e65adb-9a77-4a63-b98f-473e38f48357",
+				"method": "POST"
+			},
+			{
+				"id": "a91cb4b1-7e14-49e1-bb93-960d93720ccf",
+				"method": "POST"
+			},
+			{
+				"id": "c3407bed-d07c-4116-a700-b947ddae5798",
+				"method": "POST"
+			},
+			{
+				"id": "a5f11586-4dad-4fa2-a55a-1a421b43312a",
+				"method": "DELETE"
+			},
+			{
+				"id": "09f1bf9e-88ff-48d5-95e4-90c7bcb9fddc",
+				"method": "POST"
+			},
+			{
+				"id": "6d77bbde-9b44-459e-9d5e-07a1d411df40",
+				"method": "POST"
+			},
+			{
+				"id": "a994c34a-a365-43de-88d9-a0434f819301",
+				"method": "DELETE"
+			},
+			{
+				"id": "03344095-504c-4a9e-8f51-a4fabb33c587",
+				"method": "PUT"
+			},
+			{
+				"id": "26a9e0ad-85f8-4525-bde7-7906c60f115f",
+				"method": "GET"
+			}
+		]
+	}
+}
